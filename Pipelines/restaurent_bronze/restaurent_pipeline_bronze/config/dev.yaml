@@ -1,0 +1,14 @@
+catalog: workspace
+schema: bronze
+base_path: /Volumes/resturentproject
+files:
+  customer_reviews:
+    path: ingest/data/customer_reviews.csv
+  menu_items:
+    path: ingest/data/menu_items.csv
+  historical_orders:
+    path: ingest/data/historical_orders.csv
+  customers:
+    path: ingest/data/customers.csv
+  restaurants:
+    path: ingest/data/restaurants.csv
